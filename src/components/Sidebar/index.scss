@@ -63,6 +63,34 @@
                 letter-spacing: 2px;
                 position: absolute;
                 bottom: 0;
+                display: block;
+                width: 100%;
+                text-align: center;
+                opacity: 0;
+                transform: all 0.3s ease-out;
+            }
+
+            &:first-child {
+                &::after {
+                    content: 'Home';
+                }
+            }
+        }
+
+        a.about-link {
+            &::after {
+                content: 'About';
+            }
+        }
+        a.contact-link {
+            &::after {
+                content: 'Contact';
+            }
+        }
+
+        a.active {
+            svg {
+                color: #ffd700;
             }
         }
     }
