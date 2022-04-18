@@ -4,7 +4,7 @@ import LogoS from '../../assets/images/logo-s.png';
 import LogoSubtitle from '../../assets/images/logo_sub.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faHome , faUser  } from '@fortawesome/free-solid-svg-icons';
-import { faBehance } from '@fortawesome/free-brands-svg-icons';
+import { faBehance, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 
 const Sidebar = () => (
@@ -28,6 +28,11 @@ const Sidebar = () => (
             <li>
                 <a target="_blank" rel='noreferrer' href='https://www.behance.net/chloe012125'>
                     <FontAwesomeIcon icon={faBehance} color="#4d4d4e" />
+                </a>
+            </li>
+            <li>
+                <a target="_blank" rel='noreferrer' href='https://github.com/haurong'>
+                    <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
                 </a>
             </li>
         </ul>
