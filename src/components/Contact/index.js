@@ -11,12 +11,14 @@ const Contact = () => {
 
     setTimeout(() => {setLetterClass('text-animate-hover')}, 4000);
 
+    console.log(form);
+
     const sendEmail = (e) => {
-        e.preventDefault()
+        e.preventDefault();
 
         emailjs
             .sendForm(
-                'gmail',
+                'service_xaksiul',
                 'template_pceym62',
                 form.current,
                 'EriC_i73bY6ow9FYI'
@@ -52,16 +54,16 @@ const Contact = () => {
                         <form ref={form} onSubmit={sendEmail}>
                             <ul>
                                 <li className="half">
-                                <   input type="text" name="name" placeholder="Name" required />
+                                <   input type="text" name="name" placeholder="name" required />
                                 </li>
                                 <li className="half">
-                                    <input type="email" name="email" placeholder="Email" required />
+                                    <input type="email" name="email" placeholder="email" required />
                                 </li>
                                 <li>
-                                    <input placeholder="Subject" type="text" name="Subject" required />
+                                    <input placeholder="subject" type="text" name="subject" required />
                                 </li>
                                 <li>
-                                    <textarea placeholder="Message" name="message" required ></textarea>
+                                    <textarea placeholder="message" name="message" required ></textarea>
                                 </li>
                                 <li>
                                     <input type="submit" className="flat-button" value="SEND" />
