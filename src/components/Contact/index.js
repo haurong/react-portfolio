@@ -47,9 +47,7 @@ const Contact = () => {
                         />
                     </h1>
                     <p>
-                        I am interested in freelance opportunities - especially ambitious or
-                        large projects. However, if you have other request or question,
-                        don't hesitate to contact me using below form either.
+                        網頁設計或是UI設計專案任何業務合作洽詢，歡迎填寫表單與我聯絡！
                     </p>
                     <div className="contact-form">
                         <form ref={form} onSubmit={sendEmail}>
@@ -82,7 +80,7 @@ const Contact = () => {
                     <span>chloe012125@gmail.con</span>
                 </div>
                 <div className="map-wrap">
-                    <MapContainer center={[25.14504716704135, 121.39893702422452]} zoom={13}>
+                    <MapContainer center={[25.14504716704135, 121.39893702422452]} zoom={20}>
                         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
                         <Marker position={[25.14504716704135, 121.39893702422452]}>
                             <Popup>Chloe lives here!</Popup>
