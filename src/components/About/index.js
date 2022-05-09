@@ -25,13 +25,10 @@ const About = () => {
                     />
                 </h1>
                 <p>
-                    I'm very ambitious front-end developer looking for a role in
-                    established IT company with the opportunity to work with the latest
-                    technologies on challenging and diverse projects.
+                    我是一位設計師，目前正在學習前端開發。
                 </p>
                 <p>
-                    I'm quietly confident, naturally curious, and perpetually working on
-                    improving my chops one design problem at a time.
+                    我天生愛研究，並且一直致力於解決問題。
                 </p>
                 <p>
                     If I need to define myself in one sentence that would be a family
