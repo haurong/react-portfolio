@@ -25,15 +25,13 @@ const About = () => {
                     />
                 </h1>
                 <p>
-                    我是一位設計師，目前正在學習前端開發。
+                    我是一位設計師，UI設計及網頁設計。
+                </p>
+                <p>
+                    擅長AI、PS、Html5、Css3，正在學習JS及React。
                 </p>
                 <p>
                     我天生愛研究，並且一直致力於解決問題。
-                </p>
-                <p>
-                    If I need to define myself in one sentence that would be a family
-                    person, father of a beautiful daughter, a sports fanatic,
-                    photography enthusiast, and tech-obsessed!!!
                 </p>
             </div>
 
